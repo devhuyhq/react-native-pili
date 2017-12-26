@@ -106,6 +106,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		67605C3C1FF22696004671B8 /* libresolv.9.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libresolv.9.dylib; path = ../../../../../../../../usr/lib/libresolv.9.dylib; sourceTree = "<group>"; };
 		780D28D01CE41980004A07DE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		780D28D21CE4198F004A07DE /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		780D28D41CE41998004A07DE /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
@@ -236,6 +237,7 @@
 		780D28F71CE41CB1004A07DE /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
+				67605C3C1FF22696004671B8 /* libresolv.9.dylib */,
 				78A44EA61CF6A0F100C91505 /* GPUImage.xcodeproj */,
 				78A44E6A1CF6926700C91505 /* CoreMedia.framework */,
 				78A44E681CF6925F00C91505 /* CFNetwork.framework */,
