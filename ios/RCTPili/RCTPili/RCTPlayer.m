@@ -7,7 +7,7 @@
 //
 
 #import "RCTPlayer.h"
-#import "RCTBridgeModule.h"
+#import "React/RCTBridgeModule.h"
 #import "RCTEventDispatcher.h"
 #import "UIView+React.h"
 

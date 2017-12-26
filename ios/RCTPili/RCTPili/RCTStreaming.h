@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "RCTView.h"
+#import "React/RCTView.h"
 #import "PLCameraStreamingKit.h"
 #import "Reachability.h"
 #import <asl.h>
