@@ -2,17 +2,17 @@
  * Created by buhe on 16/5/4.
  */
 
-import React , {
+import React, {Component} from 'react';
+import PropTypes from 'prop-types';
+import {
     requireNativeComponent,
-    PropTypes,
-    View,
-    Component
+    View
 } from 'react-native';
 
 class Player extends Component {
 
-  constructor(props, context) {
-    super(props, context);
+  constructor(props) {
+    super(props);
     this._onLoading = this._onLoading.bind(this);
     this._onPaused = this._onPaused.bind(this);
     this._onShutdown = this._onShutdown.bind(this);

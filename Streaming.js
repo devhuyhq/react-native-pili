@@ -1,18 +1,17 @@
 /**
  * Created by buhe on 16/4/29.
  */
-
-import React , {
+import React, {Component} from 'react';
+import PropTypes from 'prop-types';
+import {
     requireNativeComponent,
-    PropTypes,
     View,
-    Component
 } from 'react-native';
 
 class Streaming extends Component {
 
-  constructor(props, context) {
-    super(props, context);
+  constructor(props) {
+    super(props);
     this._onReady = this._onReady.bind(this);
     this._onConnecting = this._onConnecting.bind(this);
     this._onStreaming = this._onStreaming.bind(this);
