@@ -18,15 +18,12 @@ import java.util.List;
  */
 public class PiliPackage implements ReactPackage {
 
-    private Activity activity;
-
-    public PiliPackage(Activity activity) {
-        StreamingEnv.init(activity);
-        this.activity = activity;
+    public PiliPackage() {
     }
 
     @Override
     public List<NativeModule> createNativeModules(ReactApplicationContext reactContext) {
+        StreamingEnv.init(reactContext.getCurrentActivity());
         return Collections.emptyList();
     }
 
